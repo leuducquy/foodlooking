@@ -15,12 +15,12 @@ const RestaurantCard = ({ restaurant }) => {
         />
         <div className='overlay w-full rounded-md p-2 px-3 '>
           <p className='text-xl font-bold flex gap-2 flex-wrap'>
-            {info?.aggregatedDiscountInfoV3?.header
+            {/* {info?.aggregatedDiscountInfoV3?.header
               ? info.aggregatedDiscountInfoV3.header
-              : ''}{' '}
-            {info?.aggregatedDiscountInfoV3?.subHeader
+              : ''}{' '} */}
+            {/* {info?.aggregatedDiscountInfoV3?.subHeader
               ? info.aggregatedDiscountInfoV3.subHeader
-              : ''}
+              : ''} */}
           </p>
         </div>
       </div>

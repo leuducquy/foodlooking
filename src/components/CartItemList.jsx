@@ -53,11 +53,11 @@ const CartItemList = () => {
 
               <p className='my-2 space-x-1'>
                 <span className='font-semibold'>
-                  ₹
+                  đ
                   {parseFloat(
                     (
                       item?.quantity * parseFloat(item?.item?.itemPrice / 100)
-                    ).toFixed(2)
+                    ).toFixed(2) + ".000"
                   )}
                 </span>
                 <span className='text-gray-800 font-normal'>

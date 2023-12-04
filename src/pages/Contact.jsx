@@ -1,13 +1,13 @@
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
 
 const details = {
-  name: 'Dinesh Rout',
-  bio: 'Frontend Developer',
+  name: 'Lều Đức Quý',
+  bio: '',
   contact: {
-    email: 'rddinesh779@gmail.com',
-    github: 'https://github.com/DineshRout779',
-    linkedin: 'https://www.linkedin.com/in/dineshrout7',
-    twitter: 'https://twitter.com/DineshRout779',
+    email: 'leuducquy@gmail.com@gmail.com',
+    github: 'https://github.com/leuducquy',
+    linkedin: 'https://www.linkedin.com/in/leuducquy',
+    twitter: 'https://twitter.com/leuducquy',
   },
 };
 

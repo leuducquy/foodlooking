@@ -19,15 +19,15 @@ const OrderSummary = () => {
       <div className='py-4 text-lg space-y-4 border-b'>
         <div className='flex justify-between items-center font-semibold'>
           <p className='font-normal'>Price ({cartItems.length} items)</p>
-          <p>₹ {totalPrice / 100}</p>
+          <p>đ `${totalPrice / 100}.001` </p>
         </div>
         <div className='flex justify-between items-center font-semibold'>
           <p className='font-normal'>Discount (10%)</p>
-          <p> - ₹ {parseFloat(discount).toFixed(2)}</p>
+          <p> - đ {parseFloat(discount).toFixed(2)}.000 </p>
         </div>
         <div className='flex justify-between items-center font-semibold'>
           <p className='font-normal'>Delivery charges (5%)</p>
-          <p>+ ₹ {parseFloat(deliveryCharges).toFixed(2)}</p>
+          <p>+ đ {parseFloat(deliveryCharges).toFixed(2)}.000</p>
         </div>
 
         <p className='text-sm my-2'>
@@ -39,7 +39,7 @@ const OrderSummary = () => {
         <div className='md:flex justify-between items-center font-bold text-lg md:text-2xl'>
           <h1>Total Amount</h1>
           <h1 className='text-orange-500'>
-            ₹ {parseFloat(totalAmt).toFixed(2)}
+            đ {parseFloat(totalAmt).toFixed(2)}
           </h1>
         </div>
       </div>

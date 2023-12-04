@@ -13,7 +13,7 @@ entry point: (app.js)
 test command: jest
 git repository:
 keywords: react, namaste react
-author: Dinesh Rout
+author: Lêuf Đức Quý
 license: (ISC)
 About to write to C:\workflow\namaste-react\foody\package.json:
 
@@ -30,7 +30,7 @@ About to write to C:\workflow\namaste-react\foody\package.json:
     "namaste",
     "react"
   ],
-  "author": "Dinesh Rout",
+  "author": "Lều Đức Quý",
   "license": "ISC"
 }
 

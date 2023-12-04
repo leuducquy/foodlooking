@@ -7,7 +7,7 @@ const Footer = () => {
         target={'_blank'}
         className='text-orange-500'
       >
-        Dinesh Rout
+       Lều Đức Quý
       </a>
     </div>
   );

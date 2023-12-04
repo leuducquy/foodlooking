@@ -45,7 +45,7 @@ const RestaurantMenuItem = ({ items, index, activeIndex, setActiveIndex }) => {
                   <h2 className='text-base font-semibold'>
                     {item?.card?.info?.name}
                   </h2>
-                  <p className='text-xs font-semibold'>₹{itemPrice / 100}</p>
+                  <p className='text-xs font-semibold'>đ {itemPrice / 100}.000</p>
                   <p className='text-xs hidden md:block'>
                     {item?.card?.info?.description}
                   </p>

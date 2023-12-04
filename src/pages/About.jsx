@@ -29,7 +29,7 @@ class About extends React.Component {
         <div className='w-[90%] max-w-[480px] mx-auto'>
           <h1 className='text-3xl my-4'>Foody 🍔</h1>
 
-          <p>
+          {/* <p>
             Foody is a food ordering web application built with React.js ⚛ and
             Swiggy's API.
           </p>
@@ -61,8 +61,8 @@ class About extends React.Component {
             }}
           >
             click me
-          </button>
-        </div>
+          </button>*/}
+        </div> 
       </div>
     );
   }
