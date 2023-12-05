@@ -6,7 +6,7 @@ import useOnlineStatus from './hooks/useOnlineStatus';
 import { useLayoutEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { closeMenu } from './features/app/appSlice';
-
+import SocialButton from './components/SocialButton';
 const App = () => {
   const { pathname } = useLocation();
   const isOnline = useOnlineStatus();
@@ -24,10 +24,15 @@ const App = () => {
     <>
       {isOnline ? (
         <>
+        <div class="relative">
           <Toaster />
           <Header />
           <Outlet />
           <Footer />
+          <div class="fixed top-40 left-0 ">
+            <SocialButton />
+          </div>
+          </div>
         </>
       ) : (
         <div className='flex flex-col justify-center items-center min-h-screen'>

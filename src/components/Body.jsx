@@ -29,10 +29,10 @@ const Body = () => {
   }, [isLoading]);
 
   return (
-    <div className='bg-white relative py-8'>
+    <div className='bg-white  py-8'>
       {/* banners */}
       <BannerList banners={banners} isLoading={isLoading} />
-
+      
       {/* food list */}
       <FoodList foods={foods} isLoading={isLoading} />
 
@@ -59,8 +59,11 @@ const Body = () => {
       </form>
 
       {/* restaurant list */}
-
+    
       <RestaurantList isLoading={isLoading} restaurants={filteredRestaurants} />
+     
+     
+     
     </div>
   );
 };
