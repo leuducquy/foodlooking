@@ -29,7 +29,7 @@ const App = () => {
           <Header />
           <Outlet />
           <Footer />
-          <div class="fixed top-40 left-0 ">
+          <div class="fixed top-40 left-0 z-20 invisible sm:visible">
             <SocialButton />
           </div>
           </div>
